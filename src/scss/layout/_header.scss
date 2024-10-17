@@ -51,3 +51,23 @@
     
 }
 
+@media all and (min-width: 1024px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .list-nav {
+        flex: 1;
+        text-align: right;
+
+}
+    .logo {
+        flex: 1;
+        text-align: left;
+}
+    
+}
