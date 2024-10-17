@@ -23,11 +23,17 @@
 .list-nav li {
     display: inline;
     margin: 0 20px;
+    
 
 }
 
 .menu a {
     color: #676a6d;
+    transition: font-size 0.3s ease;
+}
+
+.list-nav:hover {
+    font-size: 18px;
 }
 
 @media all and (min-width: 768px) {
